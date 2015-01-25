@@ -333,7 +333,7 @@ module.exports = function (grunt) {
       },
       src: ['**']
     }
-    
+
   });
 
 
@@ -388,6 +388,11 @@ module.exports = function (grunt) {
     'rev',
     'usemin',
     'htmlmin'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'build',
+    'gh-pages'
   ]);
 
   grunt.registerTask('default', [
