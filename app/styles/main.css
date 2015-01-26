@@ -11,6 +11,10 @@ body {
   padding-bottom: 20px;
 }
 
+iframe {
+  width: 90%;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -61,6 +65,28 @@ body {
 
 .marketing p + h4 {
   margin-top: 28px;
+}
+
+/* sns */
+iframe.twitter-share-button {
+  width: 105px !important;
+}
+
+.pocket-btn {
+  display: inline-block;
+}
+
+iframe#pocket-button-0 {
+  width: 105px !important;
+  height: 20px !important;
+}
+
+#___plusone_0 {
+  width: 65px !important;
+}
+
+.fb-like.fb_iframe_widget > span {
+  vertical-align: inherit !important;
 }
 
 /* Responsive: Portrait tablets and up */
