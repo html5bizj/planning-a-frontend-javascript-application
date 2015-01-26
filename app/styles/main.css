@@ -15,6 +15,10 @@ iframe {
   width: 90%;
 }
 
+.video {
+  margin-top: 14px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
